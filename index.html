@@ -5,10 +5,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="stylesheet.css">
+        <link href="Content\bootstrap.css" rel="stylesheet" />
+    
+        <script src="script.js"></script>
+
         <title>Document</title>
     </head>
     <body>
-        
+        <div>
+            <h1 id="miTitulo" > Recuerden amigos </h1>
+            <img src="fotitos/ardillaFeliz.gif" />
+        </div>
+        <div> 
+            <h2> Por favor, presione el botón</h2>
+            <h2> para obtener su frase motivacional </h2>
+            <input type="text" name="miInput" id="frase" readonly> 
+            <button  onclick="obtenerFrase()" id="botonFrase"> Frase Aquí </button>
+        </div>
     </body>
 
     
